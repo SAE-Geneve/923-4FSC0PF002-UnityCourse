@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Edit">
+        <ui:Button text="Edit" display-tooltip-when-elided="true" name="Edit" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Fields">
+        <ui:TextField picking-mode="Ignore" label="Name" text="..." binding-path="_name" name="Name" />
+        <ui:TextField picking-mode="Ignore" label="Description" text="..." binding-path="_description" name="Description" multiline="true" />
+        <uie:ColorField label="TextColor" value="#8D8E8EFF" binding-path="_textColor" name="TextColor" />
+        <uie:IntegerField label="Mana cost" value="42" name="ManaCost" binding-path="_manaCost" />
+        <uie:IntegerField label="Attack" value="42" name="Attack" binding-path="_attack" />
+        <uie:IntegerField label="Defense" value="42" name="Defense" binding-path="_defense" />
+    </ui:VisualElement>
+</ui:UXML>

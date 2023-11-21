@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForceField_mat
+  m_Shader: {fileID: -6465566751694194690, guid: faddc564c7c77fa42a1bdf5c951febfa,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha_Sub_Value: 0.631
+    - _Fill: 0.37
+    - _Fresnel_Power: -0.16
+    - _GridSize: 16.01
+    - _Intersect_max: 0.37
+    - _Intersect_min: 0
+    - _Offset: 1.62
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ScrollSpeed: 0.11
+    m_Colors:
+    - _BaseColor: {r: 3.2313726, g: 3.4666667, b: 0.1882353, a: 1}
+    - _Base_Color: {r: 0.07766677, g: 0.087908536, b: 0.15021265, a: 1}
+    - _EmissionColor: {r: 1.7811084, g: 4.531141, b: 4.067579, a: 0.6431373}
+    - _Emission_Color: {r: 0.16559225, g: 2.0618641, b: 3.761318, a: 0.90588236}
+  m_BuildTextureStacks: []
+--- !u!114 &2100686163329989001
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
